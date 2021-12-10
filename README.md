@@ -15,7 +15,7 @@ For this theme, I added a few styling adjustments to make it more modern.
 8. `cd Downloads`
 9. `cp OmNu-Ice ../.themes`
 
-### To install JGD-Black globally:
+### To install OmNu-Ice globally:
 
 1. Follow steps 1-5 above
 2. `cd /usr/share/themes`
