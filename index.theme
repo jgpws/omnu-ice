@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=OmNu-Ice
+Comment=OmNu-Ice is a cool, light blue/gray theme collection. Created in Oomox, this is a Numix clone.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=OmNu-Ice
+GtkTheme=OmNu-Ice
+IconTheme=OmNu-Ice
+MetacityTheme=OmNu-Ice
