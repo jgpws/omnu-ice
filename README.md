@@ -29,7 +29,7 @@ Coming soon...
 
 ---
 
-The GTK2 theme requires the Murrine theme engine. To install from the command line:
+The GTK2 theme requires the Murrine theme engine. Your distribution likely already has this engine. If not, then to install from the command line:
 
 ### Theme Engines Installation for Ubuntu:
 
