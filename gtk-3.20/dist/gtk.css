@@ -141,7 +141,9 @@ window {
     text-shadow: none;
     -gtk-icon-shadow: none; }
   .background.csd {
-    background-color: #f0f8ff; }
+    background-color: #f0f8ff;
+    border-top-left-radius: 16px;
+    border-top-right-radius:16px; }
 
 .gtkstyle-fallback {
   background-color: rgba(240, 248, 255, 0.5);

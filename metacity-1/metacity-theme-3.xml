@@ -123,11 +123,17 @@
 </draw_ops>
 
 <draw_ops name="titlebar_fill_focused">
-	<include name="entire_background_focused" />
+	<gradient type="vertical" x="0" y="0" width="width" height="height">
+		<color value="C_titlebar_focused" />
+		<color value="#b2bec9" />
+	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_unfocused">
-	<include name="entire_background_unfocused" />
+	<gradient type="vertical" x="0" y="0" width="width" height="height">
+		<color value="#f2f9ff" />
+		<color value="#b2dbff" />
+	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_attached_focused">
