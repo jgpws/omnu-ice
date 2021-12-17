@@ -136,6 +136,7 @@ window {
 
 .background {
   background-color: #f0f8ff;
+  border-radius: 0;
   color: #1e1f20; }
   .background:backdrop {
     text-shadow: none;
@@ -7184,6 +7185,10 @@ decoration {
     border-radius: 0;
     margin: 0;
     box-shadow: none; }
+  .csd decoration {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
   .csd.popup decoration {
     border-radius: 0;
     box-shadow: 0 1px 2px rgba(12, 12, 13, 0.2), 0 0 0 1px rgba(210, 217, 223, 0.13); }
