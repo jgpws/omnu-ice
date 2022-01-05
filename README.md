@@ -3,6 +3,8 @@ OmNu-Ice is a cool, light blue/gray theme collection. Created in Themix (formerl
 
 For this theme, I added a few styling adjustments to make it more modern.
 
+* [Theme Homepage](https://www.jasong-designs.com/2022/01/01/omnu-ice-theme-collection/)
+
 ## How to Install
 
 1. Download the latest file from the [downloads](https://github.com/jgpws/omnu-ice/tree/main/downloads) directory
