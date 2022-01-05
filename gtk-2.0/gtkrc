@@ -125,9 +125,6 @@ style "murrine-default" {
 	text[SELECTED] = @selected_fg_color
 	text[ACTIVE] = @selected_fg_color
 	text[INSENSITIVE] = mix (0.5, @base_color, @text_color)
-	
-	#Font
-	font_name = "Source Sans Pro"
 
 	engine "murrine" {
 		animation = FALSE

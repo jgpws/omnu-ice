@@ -129,10 +129,6 @@ GeditViewFrame .gedit-search-slider .not-found:selected, .gedit-document-panel-d
     -gtk-icon-effect: highlight; }
   *:link, *:visited {
     color: #97999c; }
-    
-window {
-	font-family: "Source Sans Pro", sans-serif;
-}
 
 .background {
   background-color: #f0f8ff;
@@ -142,9 +138,7 @@ window {
     text-shadow: none;
     -gtk-icon-shadow: none; }
   .background.csd {
-    background-color: #f0f8ff;
-    border-top-left-radius: 16px;
-    border-top-right-radius:16px; }
+    background-color: #f0f8ff; }
 
 .gtkstyle-fallback {
   background-color: rgba(240, 248, 255, 0.5);
@@ -7185,10 +7179,6 @@ decoration {
     border-radius: 0;
     margin: 0;
     box-shadow: none; }
-  .csd decoration {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
   .csd.popup decoration {
     border-radius: 0;
     box-shadow: 0 1px 2px rgba(12, 12, 13, 0.2), 0 0 0 1px rgba(210, 217, 223, 0.13); }

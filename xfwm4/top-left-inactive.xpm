@@ -1,6 +1,6 @@
 /* XPM */
 static char * top_left_inactive_xpm[] = {
-"8 26 83 1",
+"8 26 80 1",
 " 	c None",
 ".	c #FDFFFF",
 "+	c #FDFEFF",
@@ -80,10 +80,7 @@ static char * top_left_inactive_xpm[] = {
 "L	c #B6DDFF",
 "M	c #B5DDFF",
 "N	c #B6DCFF",
-"O	c #B2DBFF",
-"P	c #B3DCFF",
-"Q	c #B3DBFF",
-"R	c #B2DCFF",
+"O	c #E7EEF5",
 "     .++",
 "   @@@#@",
 "  $%&*%*",
@@ -109,4 +106,4 @@ static char * top_left_inactive_xpm[] = {
 "FGGHHHHG",
 "IJIKJIII",
 "LMMLLLNL",
-"OPOPPQRQ"};
+"OOOOOOOO"};

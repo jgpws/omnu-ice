@@ -37,7 +37,7 @@ window.active.border.color: #d2d9df
 
 
 window.active.title.bg: flat gradient vertical
-window.active.title.bg.color: #d2d9df
+window.active.title.bg.color: #f2f4f5
 window.active.title.bg.colorTo: #b2bec9
 window.active.title.separator.color: #d2d9df
 window.active.text.justify: center
@@ -58,8 +58,7 @@ window.active.button.pressed.bg: flat solid
 window.active.button.pressed.bg.color: #787c80
 window.active.button.pressed.image.color: #ffffff
 
-window.active.button.disabled.bg: flat solid
-window.active.button.disabled.bg.color: #d2d9df
+window.active.button.disabled.bg: Parentrelative
 window.active.button.disabled.image.color: #4b4d4f
 
 window.active.button.hover.bg: Parentrelative
@@ -93,8 +92,7 @@ window.inactive.button.pressed.bg: flat solid
 window.inactive.button.pressed.bg.color: #787c80
 window.inactive.button.pressed.image.color: #ffffff
 
-window.inactive.button.disabled.bg: flat solid
-window.inactive.button.disabled.bg.color: #4b4d4f
+window.inactive.button.disabled.bg: Parentrelative
 window.inactive.button.disabled.image.color: #d2d9df
 
 window.inactive.button.hover.bg: Parentrelative
