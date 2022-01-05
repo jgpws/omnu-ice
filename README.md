@@ -29,6 +29,24 @@ Coming soon...
 
 ---
 
+### Fonts
+
+The font used in the homepage screenshots is [Source Sans Pro](https://www.fontsquirrel.com/fonts/source-sans-pro) for the main theme.
+
+To change the font, you can use [LXAppearance](https://wiki.lxde.org/en/LXAppearance) *or* set the GTK theme font by editing two files.
+
+For GTK2, create the following file,
+
+**~/.gtkrc-2.0.mine** and add:
+
+```gtk-font-name="Source Sans Pro 10"```
+
+In the file **~/.config/gtk-3.0/settings.ini**, add:
+
+```gtk-font-name=Source Sans Pro 10```
+
+---
+
 The GTK2 theme requires the Murrine theme engine. Your distribution likely already has this engine. If not, then to install from the command line:
 
 ### Theme Engines Installation for Ubuntu:
