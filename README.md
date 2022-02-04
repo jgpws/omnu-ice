@@ -27,7 +27,9 @@ For this theme, I added a few styling adjustments to make it more modern.
 
 ### To install on Arch Linux:
 
-Coming soon...
+OmNu-Ice can be installed from the Arch User Repository via a package helper, such as [Yay](https://github.com/Jguer/yay):
+
+```yay -S omnu-ice```
 
 ---
 
