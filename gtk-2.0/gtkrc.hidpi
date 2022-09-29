@@ -986,8 +986,6 @@ widget_class "*XfsmLogoutDialog*GtkButton" style "xfsm-logout-button"
 
 # button fg workarounds:
 widget_class "*.<GtkButton>.<GtkLabel>" style "murrine-buttonlabel"
-widget_class "*<GtkButton>*<GtkLabel>*" style:highest "murrine-buttonlabel"
-widget_class "*<GtkCheckButton>*<GtkLabel>*" style:highest "clearlooks-radiocheck-label"
 widget_class "*<GtkComboBoxText>*" style "murrine-comboboxtext"
 widget_class "*<GtkToggleButton>*" style "murrine-togglebutton"
 widget_class "*.<GtkCheckButton>" style "murrine-radiocheck"
