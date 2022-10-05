@@ -138,7 +138,8 @@ GeditViewFrame .gedit-search-slider .not-found:selected, .gedit-document-panel-d
     text-shadow: none;
     -gtk-icon-shadow: none; }
   .background.csd {
-    background-color: #f0f8ff; }
+    background-color: #f0f8ff;
+    border-radius: 16px 16px 0 0; }
 
 .gtkstyle-fallback {
   background-color: rgba(240, 248, 255, 0.5);
