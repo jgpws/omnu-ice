@@ -1219,6 +1219,9 @@ headerbar {
       background: none;
       color: mix(#1e1f20,#f0f8ff,0.4);
       -gtk-icon-shadow: none; }
+headerbar button:checked:backdrop label {
+    color: rgba(255, 255, 255, 0.5);  
+}
 
 toolbar {
   background-color: #f0f8ff;
@@ -4482,7 +4485,7 @@ notebook {
         padding-top: 0;
         padding-bottom: 0; }
   notebook > stack:not(:only-child) {
-    background-color: #f0f8ff; }
+    background-color: #ffffff; }
   notebook > header {
     padding: 3px;
     background-color: #f0f8ff; }
@@ -6661,6 +6664,9 @@ placessidebar row {
       color: #ffffff;
       background-color: #787c80; }
   placessidebar list { background-color: #d2d9df; }
+  placessidebar list:backdrop {
+		background-color: #f0f8ff; 
+  }
   placessidebar row:selected {
       border-left: 6px solid #1e1f20;
   }
@@ -7750,6 +7756,10 @@ GtkWindow > GtkVBox > .dock, GtkWindow > GtkVBox > .dock > GtkHBox > GtkToolbar 
     -gtk-icon-effect: none;
     text-shadow: none; }
     
+.xfce4-panel.vertical {
+	background-image: linear-gradient(to right, #f2f4f5, #b2bec9);
+}
+    
 #clock-button,
 wnck-pager,
 #sn-button,
@@ -7758,21 +7768,127 @@ wnck-pager,
   margin-right: 6px;
 }
 
+.xfce4-panel.vertical #clock-button,
+.xfce4-panel.vertical wnck-pager,
+.xfce4-panel.vertical #sn-button,
+.xfce4-panel.vertical #xfce-notification-plugin {
+  margin-top: 6px;
+  margin-right: 0;
+  margin-bottom: 6px;
+  margin-left: 0;
+}
+
+.xfce4-panel.vertical wnck-pager {
+	background-image: linear-gradient(to right, #f2f4f5, #b2bec9);
+}
+
 .xfce4-panel .tasklist .toggle {
   border-radius: 16px;
   margin: 2px;
 }
 
-.xfce4-panel .tasklist .toggle:hover {
+.xfce4-panel .tasklist .toggle:hover,
+.xfce4-panel .flat:hover {
 	background-color: #ebeef1;
    background-image: linear-gradient(to bottom, white, #c9d1d8);
    border-color: rgba(24, 25, 26, 0.4);
 }
 
-.xfce4-panel .tasklist .toggle:checked {
+.xfce4-panel.vertical .tasklist .toggle:hover,
+.xfce4-panel.vertical .flat:hover {
+	background-image: linear-gradient(to right, white, #c9d1d8);
+}
+
+.xfce4-panel button.flat,
+.xfce4-panel #actions-button.flat,
+.xfce4-panel #clock-button.flat,
+.xfce4-panel #xfce4-power-manager-plugin.flat {
+	border-left-width: 0;
+	border-right-width: 0;
+}
+
+.xfce4-panel button.flat:hover {
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: #d2d9df;
+}
+
+.xfce4-panel.vertical button.flat:hover {
+	border-top: 1px solid;
+	border-right: 0;
+	border-bottom: 1px solid;
+	border-left: 0;
+	border-color: #d2d9df;
+}
+
+#applicationsmenu-button.flat:hover,
+#whiskermenu-button.flat:hover {
+	border: 1px solid #d2d9df;
+}
+
+.xfce4-panel .tasklist .toggle:checked,
+.xfce4-panel.vertical .tasklist .toggle:checked {
   background-color: #7e8286;
-  background-image: linear-gradient(to top, #8f9296, #6e7276);
   color: #ffffff;
+}
+
+.xfce4-panel .tasklist .toggle:checked {
+	background-image: linear-gradient(to top, #8f9296, #6e7276);
+}
+
+.xfce4-panel.vertical .tasklist .toggle:checked {
+	background-image: linear-gradient(to top, #8f9296, #6e7276);
+}
+
+#applicationsmenu-button image,
+#whiskermenu-button image {
+	-gtk-icon-transform:scale(0.95);
+	padding-right: 1px;
+	background-color: #d2d9df;
+	background-image: linear-gradient(to bottom, #f2f4f5, #b2bec9);
+	color: #1e1f20;
+}
+
+#applicationsmenu-button:hover image,
+#whiskermenu-button:hover image {
+	background-image: linear-gradient(to bottom, white, #c9d1d8);
+}
+
+#applicationsmenu-button:hover .vertical image,
+#whiskermenu-button:hover .vertical image {
+	background-image: linear-gradient(to right, white, #c9d1d8);
+}
+
+.xfce4-panel .flat,
+.xfce4-panel #systray-6 box {
+	background-color: #d2d9df;
+	background-image: linear-gradient(to bottom, #f2f4f5, #b2bec9);
+}
+
+.xfce4-panel.vertical .flat,
+.xfce4-panel #systray-6 box.vertical,
+#applicationsmenu-button .vertical image,
+#whiskermenu-button .vertical image {
+	background-image: linear-gradient(to right, #f2f4f5, #b2bec9);
+}
+
+.xfce4-panel .flat label {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.thunar .sidebar .view {
+	background-color: #f0f8ff;
+}
+
+.thunar .sidebar .view  :selected {
+	background-color: #787c80;
+	color: #ffffff;
+}
+
+.thunar .standard-view .view :selected {
+	background-color: mix( #1e1f20, #f0f8ff, 0.5 );
+	color: #ffffff;
 }
 
 /***********************

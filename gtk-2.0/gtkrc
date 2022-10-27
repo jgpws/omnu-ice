@@ -7,8 +7,6 @@ gtk-color-scheme =
 style "murrine-default" {
 	GtkArrow::arrow-scaling= 0.6
 
-	GtkWidget::cursor_color = @primary_caret_color
-	GtkWidget::secondary_cursor_color = @secondary_caret_color
 	GtkWidget::cursor_aspect_ratio = 0.04
 
 	GtkButton::child-displacement-x = 0
